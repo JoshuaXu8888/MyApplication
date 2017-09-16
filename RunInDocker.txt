@@ -1,0 +1,6 @@
+1: Builder docker image for product web service
+    docker build -t product-web-service .
+    
+2: Run this docker image:
+     docker run -d -p 8080:8080 product-web-service
+     
